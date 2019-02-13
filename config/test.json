@@ -1,0 +1,17 @@
+{
+    "ENV": "test",
+    "PORT": "3000",
+    "DATABASE": {
+        "MONGO_URL": "mongodb://localhost:27017/default_test_db"
+    },    
+    "CORS": {
+        "ALLOW": ["url1","url2"]
+    },
+    "INSIGHTS": {
+        "INSTRUMENTATION_KEY": "a7e99f25-7ccf-4fef-a3de-72b2ca3aad2b",
+        "SAMPLING_PERCENTAGE": 50,
+        "ROLE": "nome-referente-ao-servico",
+        "DISABLE": true
+    },    
+    "JWT_SECRET": ""
+}

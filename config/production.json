@@ -1,0 +1,17 @@
+{
+    "ENV": "production",
+    "PORT": "3000",
+    "DATABASE": {
+        "MONGO_URL": "mongodb://localhost:27017/default_production_db"
+    },    
+    "CORS": {
+        "ALLOW": ["url1","url2"]
+    },
+    "INSIGHTS": {
+        "INSTRUMENTATION_KEY": "34293c16-1dbd-47d6-980a-b2eef658afcd",
+        "SAMPLING_PERCENTAGE": 50,
+        "ROLE": "nome-referente-ao-servico",
+        "DISABLE": false
+    },    
+    "JWT_SECRET": ""
+}
